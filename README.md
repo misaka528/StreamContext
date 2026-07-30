@@ -36,8 +36,7 @@ streamcontext-tabpfn/
 ## Environment
 
 The reference server used Python 3.10.18, NumPy 1.23.5, PyTorch 2.6.0+cu124,
-Matplotlib 3.10.0, and scikit-learn 1.6.1. A CUDA GPU is strongly recommended,
-especially for Electricity with batch size 1.
+Matplotlib 3.10.0, and scikit-learn 1.6.1.
 
 ```bash
 conda env create -f environment.yml
