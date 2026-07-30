@@ -1,0 +1,30 @@
+{
+  "sine": {
+    "code_variant": "final_quarantine_and_reuse",
+    "seeds": [0, 1, 2],
+    "batch_size": 16,
+    "context_size": 1024,
+    "accuracy_mean": 0.9344,
+    "accuracy_std": 0.0,
+    "detection_recall_mean": 1.0,
+    "false_positives_total": 0,
+    "mean_detection_delay_samples": 11.2,
+    "event_count_by_seed": [5, 5, 5],
+    "elapsed_seconds_mean": 230.33365507766817,
+    "elapsed_seconds_std": 1.3391051458272674
+  },
+  "electricity": {
+    "code_variant": "full_priority_method",
+    "note": "All detected fluctuations were handled without a structural state transition, so abrupt quarantine/reuse was not needed on this run.",
+    "seeds": [42],
+    "batch_size": 1,
+    "context_size": 1500,
+    "accuracy_mean": 0.9414724576271186,
+    "accuracy_std": 0.0,
+    "ground_truth_drift_annotations": false,
+    "event_count_by_seed": [14],
+    "structural_transition_count_by_seed": [0],
+    "passive_recovery_absorbed_count_by_seed": [2],
+    "elapsed_seconds_mean": 3981.9581684709997
+  }
+}

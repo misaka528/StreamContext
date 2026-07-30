@@ -1,0 +1,6 @@
+numpy>=1.23.5,<2.0
+torch>=2.5
+matplotlib>=3.8
+scikit-learn>=1.6
+
+# Install a compatible TabPFN source tree separately. See README.md.

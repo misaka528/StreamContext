@@ -1,0 +1,13 @@
+name: streamcontext-tabpfn
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy=1.23.5
+  - matplotlib=3.10
+  - scikit-learn=1.6
+  - pytorch=2.6
+  - pytorch-cuda=12.4
+  - pip
